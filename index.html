@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PortafolioDF</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/path/to/dist/css/eins-modal.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<nav>
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#briefcase">Portafolio</a></li>
+					<li><a href="#about-me">Sobre mí</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<div class="hero" id="inicio">
+			<div class="container">
+				<img src="./img/fondo.gif" alt="">
+			</div>
+		</div>
+		<div class="profile">
+			<div class="square"></div>
+			<div class="circle-trans"></div>
+			<div class="circle"></div>
+			<div class="profile-img"><img src="./img/foto.jpg" alt=""></div>
+			<div class="square-text">DIEGO ALEJANDRO FRANCO</div>
+			<div class="square-text2"><span>WEB DEVELOPER | EST. ING. INDUSTRIAL</span></div>
+			<div class="contact-icon">
+				<a href="https://www.linkedin.com/in/diego-alejandro-franco-collazos-127884251/" target="_blank"><img
+						src="./img/linkedin.svg" alt=""></a>
+				<a href="https://github.com/DiegoAFrancoC" target="_blank"><img src="./img/github.png" alt=""></a>
+				<a data-modal-id="message"><img src="./img/correo.png" alt=""></a>
+			</div>
+			<div class="square-text3"><a href="#about-me"><span>About me | </span>Sobre mí</a></div>
+		</div>
+	</section>
+	<section class="briefcase" id="briefcase">
+		<div class="briefcase-section container">
+			<h2><span>Briefcase | </span>Portafolio</h2>
+			<div class="briefcase-grid">
+				<div><a data-modal-id="e-commerce"><img src="./img/e-commerce.PNG" alt=""></a></div>
+				<div><a data-modal-id="pokeApp"><img src="./img/pokeApp.PNG" alt=""></a></div>
+				<div><a data-modal-id="randomQuote"><img src="./img/randomQuote.PNG" alt=""></a></div>
+				<div><a data-modal-id="rickyandmortyApp"><img src="./img/rickyandmortyApp.PNG" alt=""></a></div>
+				<div><a data-modal-id="weatherApp"><img src="./img/weatherApp.PNG" alt=""></a></div>
+				<div><a data-modal-id="portafolio"><img src="./img/portafolio.PNG" alt=""></a></div>
+			</div>
+		</div>
+	</section>
+	<section class="skills">
+		<div class="skill container">
+			<div class="knowledge-part">
+				<h2><span>Knowledge | </span>Conocimientos</h2>
+				<div class="knowledge">
+					<div>
+						<img src="./img/html.png" alt="">
+						<h3>HTML</h3>
+					</div>
+					<div>
+						<img src="./img/css.png" alt="">
+						<h3>CSS</h3>
+					</div>
+					<div>
+						<img src="./img/javascript.jpg" alt="">
+						<h3>JAVASCRIPT</h3>
+					</div>
+					<div>
+						<img src="./img/react.png" alt="">
+						<h3>REACT</h3>
+					</div>
+				</div>
+			</div>
+			<div class="tools-part">
+				<h2><span> Dev Tools | </span>Herramientas</h2>
+				<div class="tools">
+					<div>
+						<img src="./img/github.png" alt="">
+						<h3>GITHUB</h3>
+					</div>
+					<div>
+						<img src="./img/visualStudioCode.jpg" alt="">
+						<h3>VISUAL STUDIO CODE</h3>
+					</div>
+					<div>
+						<img src="./img/git.png" alt="">
+						<h3>GIT</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about" id="about-me">
+		<h2><span>About me | </span>Sobre mí</h2>
+		<div class="about-flex container">
+			<div class="about-info">
+				<p>Mi nombre es Diego Franco soy estudiante de ingenieria industrial, tecnologo en mantenimiento mecatrónico de
+					automotores y desarrollador Frontend. Actualmente me desempeño como técnico de centro de control para una
+					empresa de transporte. </p>
+				<p><br>He trabajado en diferentes proyectos web con la implementación de diferentes tecnologías gracias a lo
+					aprendido durante el transcurso de mi formación como desarrollador Full-Stack, me gusta aprender cosas nuevas
+					para estar siempre actualizado. </p>
+			</div>
+			<div class="social">
+				<a href="https://github.com/DiegoAFrancoC" target="_blank"><img src="./img/github.png" alt=""></a>
+				<a href="https://www.linkedin.com/in/diego-alejandro-franco-collazos-127884251/" target="_blank"><img src="./img/linkedin.svg" alt=""></a>
+				<a data-modal-id="message"><img src="./img/correo.png" alt=""></a>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container"></div>
+		<p>© 2022 Copyright | Designed by DFranco</p>
+	</footer>
+	<div id="e-commerce" class="eins-modal" data-options="openTransition: expandIn;
+	openDuration: 200;">
+		<div class="eins-modal-content">
+			<div class="eins-modal-close"></div>
+			<div class="pw-content">
+				<div class="eins-modal-preview">
+					<img src="./img/e-commerce.PNG" alt="">
+				</div>
+				<div class="eins-modal-text">
+					<p>DIRD Store, E-commerce diseñado para el aprendizaje de la elaboración de un carrito de compras enfocado a
+						la venta de articulos musicales</p>
+					<div class="eins-modal-text2">
+						<span>ENLACE:</span><a href="https://dapper-marzipan-043995.netlify.app/"
+							target="_blank">https://e-commerce.co</a>
+					</div>
+					<div class="eins-modal-text3">
+						<span>Tecnologías Usadas:</span>
+						<div class="eins-modal-tec">
+							<img src="./img/html.png" alt="">
+							<img src="./img/css.png" alt="">
+							<img src="./img/javascript.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pokeApp" class="eins-modal" data-options="openTransition: expandIn;
+	openDuration: 200;">
+		<div class="eins-modal-content">
+			<div class="eins-modal-close"></div>
+			<div class="pw-content">
+				<div class="eins-modal-preview">
+					<img src="./img/pokeApp.PNG" alt="">
+				</div>
+				<div class="eins-modal-text">
+					<p>Pokedéx, Aplicación diseñada para el aprendizaje de las peticiones asíncronas y utilización de APIs. En
+						ella podemos encontrar toda la información de la serie pokemón y esta diseñada para la interacción del
+						usuario como entrenador.</p>
+					<div class="eins-modal-text2">
+						<span>ENLACE:</span><a href="https://pokedex-app-react-3.netlify.app/"
+							target="_blank">https://poke-app.co</a>
+					</div>
+					<div class="eins-modal-text3">
+						<span>Tecnologías Usadas:</span>
+						<div class="eins-modal-tec">
+							<img src="./img/html.png" alt="">
+							<img src="./img/css.png" alt="">
+							<img src="./img/javascript.jpg" alt="">
+							<img src="./img/react.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="randomQuote" class="eins-modal" data-options="openTransition: expandIn;
+	openDuration: 200;">
+		<div class="eins-modal-content">
+			<div class="eins-modal-close"></div>
+			<div class="pw-content">
+				<div class="eins-modal-preview">
+					<img src="./img/randomQuote.PNG" alt="">
+				</div>
+				<div class="eins-modal-text">
+					<p>Random Quote, Aplicación diseñada para renderizar una cita bibliográfica y color aleatorios.
+						<br>Proyecto inicial para el manejo de React.
+					</p>
+					<div class="eins-modal-text2">
+						<span>ENLACE:</span><a href="https://randomquote-project.netlify.app/"
+							target="_blank">https://random-quote.co</a>
+					</div>
+					<div class="eins-modal-text3">
+						<span>Tecnologías Usadas:</span>
+						<div class="eins-modal-tec">
+							<img src="./img/html.png" alt="">
+							<img src="./img/css.png" alt="">
+							<img src="./img/javascript.jpg" alt="">
+							<img src="./img/react.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="rickyandmortyApp" class="eins-modal" data-options="openTransition: expandIn;
+	openDuration: 200;">
+		<div class="eins-modal-content">
+			<div class="eins-modal-close"></div>
+			<div class="pw-content">
+				<div class="eins-modal-preview">
+					<img src="./img/rickyandmortyApp.PNG" alt="">
+				</div>
+				<div class="eins-modal-text">
+					<p>Rick And Morty, Aplicación diseñada con el manejo de APIs y React simulando estar en los diferentes
+						universos de la serie para la validación de información relacionada con los personajes. </p>
+					<div class="eins-modal-text2">
+						<span>ENLACE:</span><a href="https://rickymorty-app-react.netlify.app/"
+							target="_blank">https://rick-and-morty-app.co</a>
+					</div>
+					<div class="eins-modal-text3">
+						<span>Tecnologías Usadas:</span>
+						<div class="eins-modal-tec">
+							<img src="./img/html.png" alt="">
+							<img src="./img/css.png" alt="">
+							<img src="./img/javascript.jpg" alt="">
+							<img src="./img/react.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="weatherApp" class="eins-modal" data-options="openTransition: expandIn;
+	openDuration: 200;">
+		<div class="eins-modal-content">
+			<div class="eins-modal-close"></div>
+			<div class="pw-content">
+				<div class="eins-modal-preview">
+					<img src="./img/weatherApp.PNG" alt="">
+				</div>
+				<div class="eins-modal-text">
+					<p>Weather App, Aplicación que nos informa las condiciones climáticas utilizando la localización satelital del
+						navegador que estemos utilizando. </p>
+					<div class="eins-modal-text2">
+						<span>ENLACE:</span><a href="https://weather-app-second-project.netlify.app/"
+							target="_blank">https://weather-app.co</a>
+					</div>
+					<div class="eins-modal-text3">
+						<span>Tecnologías Usadas:</span>
+						<div class="eins-modal-tec">
+							<img src="./img/html.png" alt="">
+							<img src="./img/css.png" alt="">
+							<img src="./img/javascript.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="portafolio" class="eins-modal" data-options="openTransition: expandIn;
+	openDuration: 200;">
+		<div class="eins-modal-content">
+			<div class="eins-modal-close"></div>
+			<div class="pw-content">
+				<div class="eins-modal-preview">
+					<img src="./img/e-commerce.PNG" alt="">
+				</div>
+				<div class="eins-modal-text">
+					<p>DIRD Store, E-commerce diseñado para el aprendizaje de la elaboración de un carrito de compras enfocado a
+						la venta de articulos musicales</p>
+					<div class="eins-modal-text2">
+						<span>ENLACE:</span><a href="https://dapper-marzipan-043995.netlify.app/"
+							target="_blank">https://e-commerce.co</a>
+					</div>
+					<div class="eins-modal-text3">
+						<span>Tecnologías Usadas:</span>
+						<div class="eins-modal-tec">
+							<img src="./img/html.png" alt="">
+							<img src="./img/css.png" alt="">
+							<img src="./img/javascript.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="message" class="eins-modal" data-options="openTransition: expandIn;
+	openDuration: 200;">
+		<div class="eins-modal-content">
+			<div class="eins-modal-close"></div>
+			<form class="form" action="https://formspree.io/f/xvoyyejq" method="POST">
+				<label>
+					Tu correo Electrónico:
+					<input type="email" name="_replyto">
+				</label>
+				<label>
+					Tu mensaje:
+					<textarea name="message"></textarea>
+				</label>
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+	</div>
+	<script src="/path/to/dist/js/eins-modal.min.js"></script>
+</body>
+
+</html>
